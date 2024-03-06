@@ -3,9 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Tiago</title>  
 </head>
 <body>
-    Olá
+    <header>
+        <section class="menu">
+            <div class="name"><i class="fa-solid fa-bug"></i> Tiago Italo <b>.</b></div>
+            <nav class="navigation">
+                <a href="#"><i class="fa-solid fa-graduation-cap"></i></a>
+                <a href="#"><i class="fa-solid fa-book-open-reader"></i></a>
+                <a href="#"><i class="fa-solid fa-circle-user"></i></a>
+            </nav> 
+        </section>
+        <section class="presentation">
+            <div class="presentation1">
+                <div class="photo">
+                    <img src="/assets/perfil.png" alt="">
+                </div>
+                <div class="container-button">  
+                    <a class="button" href="/assets/Currículo (3).pdf" target="_blank">curriculo<i class="fa-solid fa-file"></i></a>  
+                    <a class="icone" href="https://github.com/tiagosoussa7" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a class="icone" href="https://www.linkedin.com/in/tiago-italo-desenvolvedor/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>  
+            </div>  
+            <div class="presentation2">
+                <div class="first-line"><span>Olá! Eu sou</span></div>  
+                <div class="second-line"><h1 class="multitext"></h1></div>
+                <p>
+                    Bem-vindo ao meu portfólio, atualmente estou cursando Análise e Desenvolvimento de Sistemas na Unicesumar, 
+                    além do curso de Banco de Dados na Estácio. Recentemente, aprimorei minhas habilidades concluindo o curso 
+                    de Backend em JavaScript pela Cubos Academy, buscando sempre me manter atualizado com as mais recentes 
+                    tecnologias e práticas de desenvolvimento.
+                    Aqui você encontrará publicações, artigos e projetos relacionados a esses cursos, como também projetos pessoais, 
+                    onde exploro minhas habilidades.
+                </p>
+
+            </div>   
+        </section>
+        
+    </header>
+    
+    <main></main>
+    <footer></footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>      
+        var typingEffect = new Typed(".multitext",{     
+            strings : ["full stack web developer.", "analista de sistemas.", "analista de banco de dados."],
+            loop : true,
+            typeSpeed : 80,
+            backSpeed : 90,
+            backDelay : 1800
+        })
+        function redirecionar(pagina) {
+            window.open(pagina, '_blank');
+        }
+    </script>
 </body>
 </html>

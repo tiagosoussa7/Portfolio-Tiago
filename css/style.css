@@ -270,7 +270,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: start;
-    margin: 50px 80px 100px 80px;   
+    margin: 50px 80px 50px 80px;   
 }
 .course-information{
     height: 350px;

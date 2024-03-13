@@ -5,31 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="assets/bug-solid.svg" type="image/svg+xml">
+    <link rel="icon" href="assets/icon/bug-solid.svg" type="image/svg+xml">
     <title>Tiago Italo</title>    
 </head>
 <body>
     <header>
-        <section class="menu">
-            <div class="name"><i class="fa-solid fa-bug"></i> Tiago Italo <b>.</b></div>
-            <nav class="navigation">
-                <a href="#graduation"><i class="fa-solid fa-graduation-cap"></i></a>
-                <a href="#qualification"><i class="fa-solid fa-book-open-reader"></i></a>
-                <a href="#"><i class="fa-solid fa-circle-user"></i></a>
-            </nav> 
-        </section>
-        <section class="presentation">
-            <div class="presentation1">
-                <div class="photo">
-                    <img src="assets/perfil.png" alt="">
+        <section class="presentation1">
+            <div class="container-name">
+                <div class="background-name">
+                    <div class="name">tiago italo <b>.</b></div>
                 </div>
-                <div class="container-button">  
-                    <a class="button" href="assets/Currículo (3).pdf" target="_blank">curriculo<i class="fa-solid fa-file"></i></a>  
-                    <a class="icone" href="https://github.com/tiagosoussa7" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a class="icone" href="https://www.linkedin.com/in/tiago-italo-desenvolvedor/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                </div>  
+            </div>
+            <nav class="menu">  
+                <a href="#graduation"><img src="assets/icon/icons8-graduação-64 (1).png" alt="menu graduações"></a>
+                <a href="#qualification"><img src="assets/icon/icons8-diploma-2-64.png" alt="menu qualificações"></a>
+                <a href="#personal"><img src="assets/icon/icons8-projeto-64.png" alt="menu projetos"></a>
+                <a href="#contact"><img src="assets/icon/icons8-contato-64.png" alt="menu contatos"></a>
+            </nav>
+        </section>       
+        <section class="presentation2">
+            <div class="profile">
+                <div class="background-photo">
+                    <div class="photo"><img src="assets/perfil.png" alt=""></div>
+                </div>
+                <div class="container-button">
+                    <a class="button" href="assets/Currículo (3).pdf" target="_blank">curriculo</a>  
+                    <a class="icone" href="https://github.com/tiagosoussa7" target="_blank"><img src="assets/icon/icons8-github-60.png" alt=""></a>  
+                    <a class="icone" href="https://www.linkedin.com/in/tiago-italo-desenvolvedor/" target="_blank"><img src="assets/icon/icons8-linkedin-60 (1).png" alt=""></a>
+                </div>
             </div>  
-            <div class="presentation2">
+            <div class="about-me">
                 <div class="first-line"><span>Olá! Eu sou</span></div>  
                 <div class="second-line"><h1 class="multitext"></h1></div>
                 <p>
@@ -40,213 +45,214 @@
                     Aqui você encontrará publicações, artigos e projetos relacionados a esses cursos, como também projetos pessoais, 
                     onde exploro minhas habilidades.
                 </p>
-
-            </div>   
-        </section>
-        
+            </div>
+        </section>      
     </header>
     
     <main>
-        <section class="container-project" id="graduation">
-            <div class="ico"><i class="fa-solid fa-graduation-cap"></i></div>
+        <section class="container-course">
+            
+            <div id="graduation"> <img src="assets/icon/icons8-graduação-64 (1).png" alt="menu graduações"></div>
+            
             <div class="course">
-                <div class="course-information">
-                    <div class="logo"><i class="fa-solid fa-copyright"></i> UniCesumar</div>
-                    <div class="date-university">
-                        <ul>
-                            <li>analise e desenvolvimento de sistemas</li>
-                            <li>em andamento</li>  
-                            <li>Junho - 2025</li>
-                        </ul> 
+                <div class="background-course">
+                    <div class="date-course">
+                        <div class="logo"><i class="fa-solid fa-copyright"></i>Unicesumar</div>
+                        <div class="date">
+                            <ul>
+                                <li>analise de sistemas</li>
+                                <li>em andamento</li>  
+                                <li>Junho - 2025</li>
+                            </ul>
+                        </div>   
                     </div>
                 </div>
-                <div class="course-content">
-                    <div class="content-container">
-                        <div class="container" onclick="redirecionar('https://www.linkedin.com/feed/update/urn:li:activity:7143368770344964097/')">
-                            <div class="project-name">processos de negócios  <i class="fa-brands fa-linkedin"></i></div>
-                            <div class="project-description">
-                                Business Process Management 
-                                <div>
-                                    <i class="fa-solid fa-chart-simple"></i>
-                                    <i class="fa-solid fa-city"></i>
-                                    <i class="fa-solid fa-chart-pie"></i>
-                                    <i class="fa-solid fa-building"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="project-name">tema  icone</div>
-                            <div class="project-description">
-                                descrição tema 
-                                <div>
-                                    icones
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="project-name">tema  icone</div>
-                            <div class="project-description">
-                                descrição tema 
-                                <div>
-                                    icones
-                                </div>
-                            </div>
-                        </div>
+                <div class="container-project">
+                    <div class="post" onclick="redirecionar('https://www.linkedin.com/pulse/programa%2525C3%2525A7%2525C3%2525A3o-explorando-diferen%2525C3%2525A7as-entre-linguagens-e-orientadas%3FtrackingId=KPA3hAwXRZC1H1IWMExQrA%253D%253D/?trackingId=KPA3hAwXRZC1H1IWMExQrA%3D%3D')">
+                        <span>artigo <i class="fa-solid fa-newspaper"></i></span> 
+                        <span>programação <i class="fa-solid fa-code"></i> <i class="fa-solid fa-file-code"></i></span>
                     </div>
-                    <div class="content-container">
-                        <div class="container" onclick="redirecionar('https://www.linkedin.com/pulse/programa%2525C3%2525A7%2525C3%2525A3o-explorando-diferen%2525C3%2525A7as-entre-linguagens-e-orientadas%3FtrackingId=KPA3hAwXRZC1H1IWMExQrA%253D%253D/?trackingId=KPA3hAwXRZC1H1IWMExQrA%3D%3D')">
-                            <div class="project-name">artigo<i class="fa-solid fa-newspaper"></i></div>
-                            <div class="project-description">
-                                programação 
-                                <div>
-                                    <i class="fa-solid fa-code"></i> 
-                                    <i class="fa-solid fa-file-code"></i> 
-                                    <i class="fa-solid fa-computer"></i>
-                                    <i class="fa-solid fa-laptop-code"></i>     
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="project-name">tema  icone</div>
-                            <div class="project-description">
-                                descrição tema 
-                                <div>
-                                    icones
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="project-name">tema  icone</div>
-                            <div class="project-description">
-                                descrição tema 
-                                <div>
-                                    icones
-                                </div>
-                            </div>
-                        </div>
+                    <div class="post" onclick="redirecionar('https://www.linkedin.com/feed/update/urn:li:activity:7143368770344964097/')">
+                        <span>publicação <i class="fa-brands fa-linkedin"></i></span> 
+                        <span>processos de negócios <i class="fa-solid fa-briefcase"></i> <i class="fa-solid fa-chart-pie"></i></span>
                     </div>
                 </div>
-            </div>
-
-            <div class="course">   
-                <div class="course-information">
-                    <div class="logo"><i class="fa-solid fa-diamond"></i> Estácio</div>
-                    <div class="date-university">
-                        <ul>  
-                            <li>banco de dados</li>
-                            <li>em andamento</li>  
-                            <li>Dezembro - 2025</li>
-                        </ul> 
+                <div class="container-project">
+                    <div class="post">publi1 <span>descrição</span>
+                    </div>
+                    <div class="post">publi2 <span>descrição</span></div>
+                </div>
+            </div> 
+            <div class="course">
+                <div class="background-course">
+                    <div class="date-course">
+                        <div class="logo"><i class="fa-solid fa-diamond"></i>Estácio</div>
+                        <div class="date">
+                            <ul>
+                                <li>banco de dados</li>
+                                <li>em andamento</li>
+                                <li>dezembro - 2025</li>
+                            </ul>
+                        </div>   
                     </div>
                 </div>
-                <div class="course-content">
-                    <div class="content-container">
-                        <div class="container" onclick="redirecionar('https://www.linkedin.com/pulse/pensamento-computacional-adapta%2525C3%2525A7%2525C3%2525A3o-profissional-em-um-tiago-%2525C3%2525ADtalo-xbuof%3FtrackingId=y4%252FNa6vkEV3f29JFV5EYcQ%253D%253D/?trackingId=y4%2FNa6vkEV3f29JFV5EYcQ%3D%3D')">
-                            <div class="project-name">artigo <i class="fa-solid fa-newspaper"></i></div>
-                            <div class="project-description">
-                                pensamento computacional 
-                                <div>
-                                    <i class="fa-solid fa-microchip"></i>
-                                    <i class="fa-solid fa-desktop"></i>
-                                    <i class="fa-solid fa-brain"></i>
-                                    <i class="fa-solid fa-sitemap"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container" onclick="redirecionar('https://www.linkedin.com/feed/update/urn:li:activity:7161427512345014272/')">
-                            <div class="project-name">inteligência artificial <i class="fa-brands fa-linkedin"></i></div>
-                            <div class="project-description">
-                                linhas de pensamento
-                                <div>
-                                    <i class="fa-solid fa-brain"></i>
-                                    <i class="fa-solid fa-robot"></i>
-                                    <i class="fa-solid fa-microchip"></i>
-                                    <i class="fa-solid fa-head-side-virus"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="project-name">tema  icone</div>
-                            <div class="project-description">
-                                descrição tema 
-                                <div>
-                                    icones
-                                </div>
-                            </div>
-                        </div>
+                <div class="container-project">
+                    <div class="post" onclick="redirecionar('https://www.linkedin.com/pulse/pensamento-computacional-adapta%2525C3%2525A7%2525C3%2525A3o-profissional-em-um-tiago-%2525C3%2525ADtalo-xbuof%3FtrackingId=y4%252FNa6vkEV3f29JFV5EYcQ%253D%253D/?trackingId=y4%2FNa6vkEV3f29JFV5EYcQ%3D%3D')">
+                        <span>artigo <i class="fa-solid fa-newspaper"></i></span> 
+                        <span>pensamento computacional <i class="fa-solid fa-desktop"></i> <i class="fa-solid fa-brain"></i></span>
                     </div>
-                    <div class="content-container">
-                        <div class="container" onclick="redirecionar('https://www.linkedin.com/pulse/programa%2525C3%2525A7%2525C3%2525A3o-explorando-diferen%2525C3%2525A7as-entre-linguagens-e-orientadas%3FtrackingId=KPA3hAwXRZC1H1IWMExQrA%253D%253D/?trackingId=KPA3hAwXRZC1H1IWMExQrA%3D%3D')">
-                            <div class="project-name">artigo<i class="fa-solid fa-newspaper"></i></div>
-                            <div class="project-description">
-                                programação 
-                                <div>
-                                    <i class="fa-solid fa-code"></i> 
-                                    <i class="fa-solid fa-file-code"></i> 
-                                    <i class="fa-solid fa-computer"></i>
-                                    <i class="fa-solid fa-laptop-code"></i>     
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="project-name">tema  icone</div>
-                            <div class="project-description">
-                                descrição tema 
-                                <div>
-                                    icones
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="project-name">tema  icone</div>
-                            <div class="project-description">
-                                descrição tema 
-                                <div>
-                                    icones
-                                </div>
-                            </div>
-                        </div>
+                    <div class="post" onclick="redirecionar('https://www.linkedin.com/feed/update/urn:li:activity:7161427512345014272/')">
+                        <span>publicação <i class="fa-brands fa-linkedin"></i></span> 
+                        <span>inteligência artificial <i class="fa-solid fa-robot"></i> <i class="fa-solid fa-head-side-virus"></i></span>
                     </div>
+                </div>    
+                <div class="container-project">
+                    <div class="post">publi1 <span>descrição</span></div>
+                    <div class="post">publi2 <span>descrição</span></div>
                 </div>
             </div>
         </section>
-        
-        <section class="container-project" id="qualification">  
-            <div class="ico"><i class="fa-solid fa-book-open-reader"></i></div>
-            <div class="qualification">
-                <div class="course-information">
-                    <div class="logo"><i class="fa-solid fa-cube"></i>Cubos</div>
-                    <div class="date-university">
-                        <ul>  
-                            <li>desenvolvedor back-end</li>
-                            <li>concluído</li>  
-                            <li>dezembro - 2024</li>
-                            <li>carga hóraria - 500 horas</li>
-                        </ul> 
+        <section class="container-course">
+            
+            <div id="qualification"> <img src="assets/icon/icons8-diploma-2-64.png" alt="menu qualificações"></div>
+            
+            <div class="course">
+                <div class="background-course">
+                    <div class="date-course">
+                        <div class="logo"><i class="fa-solid fa-cube"></i>Cubos Academy</div>
+                        <div class="date">
+                            <ul>
+                                <li>desenvolvedor back-end</li>
+                                <li>concluído</li>  
+                                <li>dezembro - 2024</li>
+                                <li>carga hóraria - 500 horas</li>
+                            </ul>  
+                        </div>   
                     </div>
                 </div>
-                <div class="course-project">
-                    <div class="project-img">imagem</div>
-                    <div class="project-api"> 
-                        cubos academy - API <i class="fa-solid fa-server"></i>   
-                    </div>
-                    <div class="git">
-                        <i class="fa-brands fa-github"></i>
-                        <i class="fa-solid fa-folder-open"></i>
+                <div class="container-project">
+                    <div class="api">
+                        <div class="img"><img src="assets/api/testeapifoto (1).png" alt=""></div>
+                        <span>api - descrição</span>  
+                        <div class="git"><i class="fa-brands fa-github"></i> <i class="fa-solid fa-folder-open"></i></div>
                     </div>
                 </div>
-                <div class="course-project">
-
+                <div class="container-project">
+                    <div class="api">
+                        <div class="img"><img src="assets/api/testeapifoto (1).png" alt=""></div>
+                        <span>api - descrição</span>  
+                        <div class="git"><i class="fa-brands fa-github"></i> <i class="fa-solid fa-folder-open"></i></div>
+                    </div> 
                 </div>
             </div>
-        </section>
-        
-        <section class="personal-project">
-            pessoal
+            <div class="container-api">
+                <div class="container-project">
+                    <div class="api">
+                        <div class="img"><img src="assets/api/testeapifoto (1).png" alt=""></div>
+                        <span>api - descrição</span>  
+                        <div class="git"><i class="fa-brands fa-github"></i> <i class="fa-solid fa-folder-open"></i></div>
+                    </div> 
+                </div>
+                <div class="container-project">
+                    <div class="api">
+                        <div class="img"><img src="assets/api/testeapifoto (1).png" alt=""></div>
+                        <span>api - descrição</span>  
+                        <div class="git"><i class="fa-brands fa-github"></i> <i class="fa-solid fa-folder-open"></i></div>
+                    </div> 
+                </div>
+                <div class="container-project">
+                    <div class="api">
+                        <div class="img"><img src="assets/api/testeapifoto (1).png" alt=""></div>
+                        <span>api - descrição</span>  
+                        <div class="git"><i class="fa-brands fa-github"></i> <i class="fa-solid fa-folder-open"></i></div>
+                    </div> 
+                </div>   
+            </div>
+            <div class="course-api">
+                <div class="container-api">
+                </div>
+            </div>    
         </section>
 
+        <section class="container-course">
+            
+            <div id="personal"> <img src="assets/icon/icons8-projeto-64.png" alt="menu projetos"></div>
+            
+            <div class="course">
+                <div class="background-course">
+                    <div class="date-course">
+                        <div class="logo"><i class="fa-solid fa-circle-user"></i>Projetos Pessoais</div>
+                        <div class="date">
+                            <ul>
+                                <li>projetos full-stack</li>
+                                <li>projetos front-end</li>  
+                            </ul>    
+                        </div>   
+                    </div>
+                </div>
+                <div class="container-project">
+                    <div class="api">
+                        <div class="img"><img src="" alt="">imagem</div>
+                        <span>api - descrição</span>  
+                        <div class="git"><i class="fa-brands fa-github"></i> <i class="fa-solid fa-folder-open"></i></div>
+                    </div>
+                </div>
+                <div class="container-project">
+                    <div class="api">
+                        <div class="img"><img src="" alt="">imagem</div>
+                        <span>api - descrição</span>  
+                        <div class="git"><i class="fa-brands fa-github"></i> <i class="fa-solid fa-folder-open"></i></div>
+                    </div> 
+                </div>
+            </div>
+            <div class="container-api">
+                <div class="container-project">
+                    <div class="api">
+                        <div class="img"><img src="" alt="">imagem</div>
+                        <span>api - descrição</span>  
+                        <div class="git"><i class="fa-brands fa-github"></i> <i class="fa-solid fa-folder-open"></i></div>
+                    </div> 
+                </div>
+                <div class="container-project">
+                    <div class="api">
+                        <div class="img"><img src="" alt="">imagem</div>
+                        <span>api - descrição</span>  
+                        <div class="git"><i class="fa-brands fa-github"></i> <i class="fa-solid fa-folder-open"></i></div>
+                    </div> 
+                </div>
+                <div class="container-project">
+                    <div class="api">
+                        <div class="img"><img src="" alt="">imagem</div>
+                        <span>api - descrição</span>  
+                        <div class="git"><i class="fa-brands fa-github"></i> <i class="fa-solid fa-folder-open"></i></div>
+                    </div> 
+                </div>   
+            </div>
+            <div class="course-api">
+                <div class="container-api">
+                </div>
+            </div> 
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="contact">
+            <div id="contact"> <img src="assets/icon/icons8-contato-64.png" alt="menu contatos"></div>
+            <div class="social-media">
+                <div class="social-icone" onclick="redirecionar('https://www.linkedin.com/in/tiago-italo-desenvolvedor/')">
+                    <div class="social-name">
+                        linked <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>  
+    
+                <div class="social-icone" onclick="redirecionar('https://github.com/tiagosoussa7')">
+                    <div class="social-name">
+                        github <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>      
         var typingEffect = new Typed(".multitext",{     

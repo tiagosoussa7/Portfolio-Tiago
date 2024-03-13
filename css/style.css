@@ -386,7 +386,7 @@ main{
 .img{
     opacity: 0.9;
     overflow: hidden;
-    border: 3px solid #00e8cd;
+    border: 3px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -405,7 +405,7 @@ main{
     height: 50px;
     font-size: 30px;
     cursor: pointer;  
-    transition: all 0.5s ease-in-out 0s; 
+    transition: all 0.8s ease-in-out 0s; 
 }
 .git:hover{
     color: #00e8cd;
@@ -433,7 +433,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 120px 0px 20px 0px;
+    margin: 40px 0px 20px 0px;
     width: 1220px;    
 }
 .contact{
@@ -500,7 +500,7 @@ footer{
     transition: all 0.5s;
     border: 2px solid #00e8cd;
     border-radius: 20px;    
-    box-shadow: 0 0 40px #00e8cd;
+    box-shadow: 0 0 20px #00e8cd;
     transform: scale(1.2,1.2);      
 
 }    

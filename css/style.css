@@ -283,26 +283,25 @@ main{
 }
 .course{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     margin: 30px 10px 50px 10px;   
     width: 1200px;
 }
 .background-course{
-    margin: 10px 10px 10px 50px;
-    height: 370px;
-    width: 380px;
+    margin: 10px;
+    height: 330px;
+    width: 350px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    border: 3px solid #00e8cd;
-    box-shadow: 0 0 20px #00e8cd;  
+    justify-content: center;  
 }
 .date-course{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 350px;
-    width: 350px;
+    height: 320px; 
+    width: 300px;     
     border-top-left-radius: 40px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;  
@@ -316,14 +315,14 @@ main{
     justify-content: center;
     flex-direction: column;
     margin-top: 60px;
-    font-size: 30px;  
+    font-size: 25px;    
     font-weight: 600;
 }
 .logo i{
-    font-size: 60px;
+    font-size: 50px;
 }
 .date{
-    margin: 15px;
+    margin: 8px;
 }
 .date ul{
     margin-left: 35px;
@@ -331,15 +330,15 @@ main{
     font-weight: 500;
 }
 .container-project{
+    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 10px;
     width: 350px;
 }
 .post{
-    margin: 15px;
+    margin: 10px;
     height: 150px;
     width: 320px;
     border: 3px solid #00e8cd;
@@ -366,6 +365,7 @@ main{
     transform: scale(1.1); 
 }
 .api{
+    margin: 10px;
     height: 330px;
     width: 310px;
     border: 3px solid #00e8cd;
@@ -379,9 +379,16 @@ main{
     font-variant: small-caps;  
     cursor: pointer;
     transition: all 0.5s ease-in-out 0s;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);   
+}
+.api:hover{
+    color: black;
+    background-color: #00e8cd;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
-    transform: scale(1);   
+    transform: scale(1); 
 }
 .img{
     opacity: 0.9;
@@ -414,19 +421,14 @@ main{
 .git i{
     margin: 5px;
 }
-.api:hover{
-    color: black;
-    background-color: #00e8cd;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1); 
-}
+
 
 .container-api{
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    margin: 10px 10px 20px 10px;   
-    width: 1200px;       
+    margin: 10px 10px 10px 10px;   
+    width: 1200px;    
 }
 
 footer{

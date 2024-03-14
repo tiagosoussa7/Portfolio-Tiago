@@ -431,6 +431,8 @@ main{
     width: 1200px;    
 }
 
+/*-------------------------------------*/
+
 footer{
     display: flex;
     align-items: center;

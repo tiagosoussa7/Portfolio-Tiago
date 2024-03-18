@@ -314,7 +314,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 60px;
+    margin-top: 45px;     
     font-size: 25px;    
     font-weight: 600;
 }
@@ -322,15 +322,18 @@ main{
     font-size: 50px;
 }
 .date{
-    margin: 8px;
+    margin: 10px;
 }
 .date ul{
-    margin-left: 35px;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 500;
+    list-style-type: none;
+}
+.certificates a{
+    margin: 5px;   
 }
 .container-project{
-    margin: 10px;
+    margin: 10px;     
     display: flex;
     align-items: center;
     justify-content: center;
@@ -365,8 +368,8 @@ main{
     transform: scale(1.1); 
 }
 .api{
-    margin: 10px;
-    height: 330px;
+    margin-top: 20px;  
+    height: 220px;
     width: 310px;
     border: 3px solid #00e8cd;
     border-radius: 20px;
@@ -384,8 +387,8 @@ main{
     transform: scale(0.9);   
 }
 .api:hover{
-    color: black;
     background-color: #00e8cd;
+    color: black;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1); 
@@ -393,33 +396,51 @@ main{
 .img{
     opacity: 0.9;
     overflow: hidden;
-    border: 3px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px;  
+    flex-direction: column;
+    margin-top: 10px;  
     border-radius: 20px;
-    height: 200px;
+    height: 150px;   
     width: 280px;
+    font-size: 25px;    
+    font-weight: 900;       
 }
-.git{
-    margin: 10px;
+.api span{       
+    text-transform: uppercase;
+    font-size: 13px;    
+}
+.span i{
+    font-size: 18px;      
+}   
+.api-buttons{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 310px;  
+    height: 90px;   
+    font-size: 30px;
+    transition: all 0.5s ease-in-out 0s;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.api-buttons a{
+    color: #00e8cd;
+    margin: 25px;  
+    height: 70px;
+    width: 80px;
+    font-size: 27px;        
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
-    width: 90px;
-    height: 50px;
-    font-size: 30px;
-    cursor: pointer;  
-    transition: all 0.8s ease-in-out 0s; 
+    flex-direction: column;
+    transition: all 0.5s ease-in-out 0s;   
 }
-.git:hover{
-    color: #00e8cd;
-    background-color: black;
-}
-.git i{
-    margin: 5px;
+.api-buttons a:hover{     
+    color: crimson;
 }
 
 

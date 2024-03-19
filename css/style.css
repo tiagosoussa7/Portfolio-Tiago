@@ -305,15 +305,21 @@ main{
     border-top-left-radius: 20px;
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;  
-    border-bottom-right-radius: 20px;  
-    box-shadow: 0 0 30px #00e8cd ;
+    border-bottom-right-radius: 20px;    
+    box-shadow: 0 0 20px #00e8cd ;
     border: 3px solid #00e8cd;
     font-weight: 600;         
     color: #00e8cd;
     transition: all 0.5s ease-in-out 0s;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
 }
 .container-tech1:hover{
-    opacity: 1.2;  
+    opacity: 1.2; 
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);      
 }
 
 .container-course{
@@ -389,11 +395,13 @@ main{
     width: 350px;
 }
 .post{
+    opacity: 0.9;   
     margin: 10px;
     height: 150px;
     width: 320px;
     border: 3px solid #00e8cd;
     border-radius: 20px;
+    box-shadow: 0 0 10px #00e8cd;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -409,18 +417,21 @@ main{
     transform: scale(1); 
 }
 .post:hover{
+    opacity: 1;
     color: black;
     background-color: #00e8cd;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1); 
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95); 
 }
 .api{
+    opacity: 0.9;   
     margin-top: 20px;  
     height: 220px;
     width: 310px;
     border: 3px solid #00e8cd;
     border-radius: 20px;
+    box-shadow: 0 0 10px #00e8cd;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -431,16 +442,17 @@ main{
     font-variant: small-caps;  
     cursor: pointer;
     transition: all 0.5s ease-in-out 0s;
-    -webkit-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    transform: scale(0.9);   
-}
-.api:hover{
-    background-color: #00e8cd;
-    color: black;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
-    transform: scale(1); 
+    transform: scale(1);   
+}
+.api:hover{
+    opacity: 1;
+    background-color: #00e8cd;
+    color: black;
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);    
 }
 .img{
     opacity: 0.9;

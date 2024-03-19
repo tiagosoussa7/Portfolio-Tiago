@@ -374,7 +374,7 @@ main{
     font-size: 13px;
     font-weight: 700;  
     list-style-type: none;
-    width: 270px;     
+    width: 270px;          
 }
 .certificates a{
     margin: 5px;      
@@ -423,6 +423,7 @@ main{
     border-radius: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     font-size: 20px;
     color:#00e8cd;
@@ -447,20 +448,20 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    margin-top: 10px;  
+    flex-direction: column;  
     border-radius: 20px;
     height: 150px;   
     width: 280px;
     font-size: 25px;    
-    font-weight: 900;       
+    font-weight: 900;          
 }
 .api span{       
     text-transform: uppercase;
-    font-size: 13px;    
+    font-size: 12px;        
 }
 .span i{
-    font-size: 18px;      
+    font-size: 20px; 
+    margin: 3px;       
 }   
 .api-buttons{
     display: flex;  

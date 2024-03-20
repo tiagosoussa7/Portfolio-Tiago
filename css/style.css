@@ -594,3 +594,9 @@ footer{
     opacity: 1;
     transform: scale(1,1);
 }
+.owner{
+    color: #00e8cd;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
+}

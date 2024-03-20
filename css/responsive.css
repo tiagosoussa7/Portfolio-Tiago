@@ -1,0 +1,67 @@
+@media screen and (max-width: 835px){          
+    header{
+        width: 830px;          
+    }
+    .presentation1{
+        width: 820px;
+    }
+    .container-name{
+        width: 340px;  
+    }
+    .background-name{
+        width: 320px;   
+    }
+    .name{
+        font-size: 25px;
+        width: 300px;
+    }
+    .menu{
+        width: 430px;
+    }
+    .menu a{
+        margin: 10px;             
+    }
+    .presentation2{
+        width: 820px;  
+    }
+    .profile{
+        width: 340px;
+    }
+    .background-photo{
+        width: 320px;  
+    }
+    .photo{
+        width: 300px;
+    }
+    .container-button{
+        width: 320px;    
+    }
+    .icone{
+        margin: 3px;      
+    }
+    .button{
+        font-size: 20px;    
+        margin: 5px;
+    }
+    .button::before{
+        min-width: calc(175px + 10px);
+    }
+    @keyframes ring {
+        0% {
+          width: 35px;
+          height: 10px;
+          opacity: 1;
+        }
+        100% {
+          width: 180px;
+          height: 60px;
+          opacity: 0;
+        }
+      }
+    .about-me{
+        width: 430px;
+    }
+    p{
+        width: 420px;
+    }
+}     

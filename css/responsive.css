@@ -1,4 +1,4 @@
-@media screen and (max-width: 835px){          
+@media screen and (max-width: 890px){
     header{
         width: 820px;            
     }
@@ -49,12 +49,12 @@
     }
     @keyframes ring {
         0% {
-          width: 35px;
-          height: 10px;
-          opacity: 1;
+            width: 35px;
+            height: 10px;
+            opacity: 1;
         }
         100% {
-          width: 180px;
+            width: 180px;
           height: 60px;
           opacity: 0;
         }
@@ -68,7 +68,7 @@
 
     /*---------------------------------------*/
     
-    main{
+    main{            
         margin-top: 60px;   
         width: 820px;  
     }
@@ -128,7 +128,10 @@
     .container-api{ 
         width: 780px;   
     }
-    footer{  
+
+    /*------------------------------------------------*/
+
+    footer{             
         width: 820px; 
     }
     .contact{
@@ -142,4 +145,227 @@
     .social-icone{
         width: 340px;  
     }
-}       
+}          
+
+/*---------------------------------------------------------*/
+
+@media screen and (max-width: 430px){ 
+    .container-name{ 
+        width: 410px;  
+    }        
+    .background-name{
+        width: 390px;     
+    }
+    .name{
+        font-size: 35px;
+        width: 370px;  
+    }
+    .menu{
+        display: none;
+    }
+    .presentation2{    
+        flex-direction: column; 
+        width: 420px;   
+    }
+    .profile{
+        width: 410px;   
+    }
+    .background-photo{
+        width: 390px; 
+    }
+    .photo{
+        width: 370px;
+    }
+    .container-button{
+        width: 390px;       
+    }     
+    .button{
+        width: 230px;  
+        font-size: 25px;    
+    }
+    .button::before{   
+        min-width: calc(230px + 10px);
+    }
+    @keyframes ring {
+        0% {
+            width: 35px;
+            height: 10px;
+            opacity: 1;
+        }
+        100% {
+            width: 240px;
+            height: 60px;
+            opacity: 0;
+        }
+      }
+      p{
+        width: 400px;      
+      }
+    /*---------------------------------------*/
+    
+    .tech{
+        display: none;     
+    }
+    .course{
+        flex-direction: column;       
+        width: 420px;              
+    }
+    .background-course{
+        margin: 5px;
+        height: 330px;      
+        width: 380px;
+    }
+    .date-course{
+        height: 300px;    
+        width: 340px;           
+    }
+    .date{
+        margin: 5px;
+    }
+    .date ul{   
+        font-size: 14px;        
+        font-weight: 700;  
+        width: 300px;            
+    }
+    .container-project{
+        width: 380px;    
+    }
+    .post{
+        font-size: 20px;         
+        width: 300px;  
+    }
+    .api{    
+        width: 300px;  
+    }
+    .container-api{ 
+        flex-direction: column;    
+        width: 420px;    
+    }
+
+    /*--------------------------------------*/
+    
+    .contact{
+        width: 420px;       
+    }
+    .social-media{  
+        flex-direction: column;      
+        height: 200px;    
+        width: 410px;  
+    }
+    .social-icone{
+        margin: 10px;        
+        width: 340px;  
+    }
+    .owner{
+        font-size: 10px;
+        font-weight: 600;          
+    }
+}    
+
+@media screen and (max-width: 395px){ 
+    p{
+        width: 380px;  
+    }
+    .owner{
+        font-size: 8px;        
+    }
+}
+@media screen and (max-width: 380px){
+    .container-name{ 
+        width: 360px;          
+    }        
+    .background-name{
+        width: 340px;        
+    }
+    .name{
+        font-size: 25px;            
+        width: 320px;      
+    }
+    .background-photo{
+        width: 340px;           
+    }
+    .photo{
+        width: 320px;            
+    }
+    .container-button{
+        width: 340px;              
+    }
+    .button{
+        width: 200px;  
+        font-size: 20px;          
+    }
+    .button::before{         
+        min-width: calc(195px + 10px);
+    }  
+    @keyframes ring {
+        0% {
+            width: 35px;
+            height: 10px;
+            opacity: 1;
+        }
+        100% {
+            width: 220px;
+            height: 60px;
+            opacity: 0;
+        }
+      }
+      .second-line h1{   
+        font-size: 20px;        
+      }
+      p{
+        width: 350px;         
+      }
+}
+
+@media screen and (max-width: 325px){
+    .background-name{
+        width: 310px;        
+    }
+    .name{
+        font-size: 25px;            
+        width: 290px;      
+    }
+    .background-photo{
+        width: 310px;           
+    }
+    .photo{
+        width: 290px;            
+    }
+    .container-button{
+        width: 310px;              
+    }
+    .button{
+        width: 200px;  
+        font-size: 20px;          
+    }
+    .button::before{         
+        min-width: calc(165px + 10px);   
+    }  
+    @keyframes ring {
+        0% {
+            width: 35px;
+            height: 10px;
+            opacity: 1;
+        }
+        100% {
+            width: 200px;
+            height: 60px;
+            opacity: 0;
+        }
+    }
+    .second-line h1{   
+        font-size: 20px;        
+    }
+    p{
+        width: 310px;         
+    }
+    .background-course{
+        width: 310px;                    
+    }
+    .social-icone{        
+        width: 260px;  
+    }
+    .owner{
+        font-size: 7px;         
+    }
+}

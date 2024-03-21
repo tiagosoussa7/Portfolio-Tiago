@@ -11,7 +11,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: black;
+    justify-content: center;   
+    background-color: black;    
 }
 header{ 
     display: flex;

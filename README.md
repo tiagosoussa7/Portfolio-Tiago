@@ -8,6 +8,10 @@ Este é o meu portfólio pessoal, destacando minha jornada acadêmica, habilidad
 
 _Apresentação breve e direta sobre mim, destacando meus objetivos e áreas de interesse._
 
+#### **Tecnologis e Ferramentas:**
+
+_Botões interativos com as principais tecnologias e ferramentas que uso para o desenvolvimento de projetos._
+
 #### **Graduação:**
 
 _Detalhes sobre minha formação acadêmica, incluindo cursos, período e instituição de ensino._
@@ -72,19 +76,29 @@ _Este projeto está licenciado sob a Licença MIT - sinta-se à vontade para uti
 
 ###### `imagem:`
 
-![imagem:portfolio](./assets/readme/port3.png)
+![imagem:portfolio](./assets/readme/port3a.png)
+
+![imagem:portfolio](./assets/readme/port3b.png)
 
 #
 
 ###### `imagem:`
 
-![imagem:portfolio](./assets/readme/port4.png)
+![imagem:portfolio](./assets/readme/port4a.png)
+
+![imagem:portfolio](./assets/readme/port4b.png)
 
 #
 
 ###### `imagem:`
 
 ![imagem:portfolio](./assets/readme/port5.png)
+
+#
+
+###### `imagem:`
+
+![imagem:portfolio](./assets/readme/port6.png)
 
 #
 

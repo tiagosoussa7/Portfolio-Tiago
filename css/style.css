@@ -352,10 +352,7 @@ main{
     flex-direction: column;
     height: 320px; 
     width: 300px;     
-    border-top-left-radius: 40px;
-    border-top-right-radius: 100px;
-    border-bottom-left-radius: 100px;  
-    border-bottom-right-radius: 40px;
+    border-radius: 20px;  
     box-shadow: 0 0 10px #00e8cd;  
     background-color: #00e8cd;
 }
